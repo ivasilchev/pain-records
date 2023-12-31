@@ -1,0 +1,35 @@
+medications: 
+  -
+    name: "Oxycodone"
+    source: "data/oxycodone.csv"
+  - 
+    name: "CBD Capsules"
+    source: "data/CBD-Capsules.csv"
+  -
+    name: "CBD Patches"
+    source: "data/CBD-Patches.csv"
+pain:
+  -
+    name: "Left Foot Pain"
+    source: "data/left-foot-pain.csv"
+    area: "Left foot"
+excercise:
+  -
+    name: "Stationary Bike"
+    source: "excercise.csv"
+  -
+    name: "Isometric"
+    source: "excercise.csv"
+  -
+    name: "Stretching"
+    source: "excercise.csv"  
+  -
+    name: "Rehabilitative"
+    source: "excercise.csv"
+  -
+    name: "Walking"
+    source: "excercise.csv"
+  -
+    name: "Running"
+    source: "excercise.csv"
+#
