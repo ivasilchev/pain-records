@@ -1,2 +1,4 @@
 intake-stats.code-workspace
 *.csv
+app.yaml
+data.yaml

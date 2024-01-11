@@ -1,35 +1,78 @@
-medications: 
-  -
-    name: "Oxycodone"
-    source: "data/oxycodone.csv"
-  - 
-    name: "CBD Capsules"
-    source: "data/CBD-Capsules.csv"
-  -
-    name: "CBD Patches"
-    source: "data/CBD-Patches.csv"
+# Taken medications data
+medication: 
+  data: 
+    -
+      name: "Oxycodone"
+      source: "data/oxycodone.csv"
+    - 
+      name: "CBD Capsules"
+      source: "data/CBD-Capsules.csv"
+    -
+      name: "CBD Patches"
+      source: "data/CBD-Patches.csv"
+
+# Experienced Pain Data
 pain:
-  -
-    name: "Left Foot Pain"
-    source: "data/left-foot-pain.csv"
-    area: "Left foot"
+  data:
+    -
+      name: "Left Foot Pain"
+      source: "data/left-foot-pain.csv"
+      area: "Left foot"
+
+# Excercise Data
 excercise:
-  -
-    name: "Stationary Bike"
-    source: "excercise.csv"
-  -
-    name: "Isometric"
-    source: "excercise.csv"
-  -
-    name: "Stretching"
-    source: "excercise.csv"  
-  -
-    name: "Rehabilitative"
-    source: "excercise.csv"
-  -
-    name: "Walking"
-    source: "excercise.csv"
-  -
-    name: "Running"
-    source: "excercise.csv"
+  data:
+    -
+      name: "Stationary Bike"
+      source: "excercise.csv"
+    -
+      name: "Isometric"
+      source: "excercise.csv"
+    -
+      name: "Stretching"
+      source: "excercise.csv"  
+    -
+      name: "Rehabilitative"
+      source: "excercise.csv"
+    -
+      name: "Walking"
+      source: "excercise.csv"
+    -
+      name: "Running"
+      source: "excercise.csv"
+
+# Treatment Data
+treatment:
+  data:
+    -
+      name: "Leeches"
+      source: "leeches.csv"
+    -
+      name: "Acupuncture"
+      source: "acupuncture.csv"
+    -
+      name: "Massage"
+      source: "massage.csv"
+
+
+# Sleep Data
+sleep: 
+  data:
+    -
+      name: "Sleep"
+      source: "sleep.csv"
+
+mind: 
+  data: 
+    -
+      name: "Mind"
+      source: "mind.csv"
+
+mood:
+  data:
+    -
+      name: "Mood"
+      source: "mood.csv"
+
+#     
 #
